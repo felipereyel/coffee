@@ -1,3 +1,4 @@
-import abstra.forms as af
+from recipes import medium
+from runner import run
 
-af.display('medium')
+run(medium)
