@@ -1,0 +1,55 @@
+{
+  "workspace": {
+    "id": null,
+    "name": "Untitled Workspace",
+    "theme": null,
+    "logo_url": "https://i.pinimg.com/564x/2d/89/0d/2d890da585d9a8dfc6cfbf73d04798a0.jpg",
+    "brand_name": "Coffee",
+    "main_color": "#481F06",
+    "font_color": null,
+    "font_family": null,
+    "sidebar": [
+      {
+        "id": "b1f2e384-1052-4e50-ac1a-fc45dc543d3f",
+        "name": "Medium",
+        "path": "medium",
+        "type": "form",
+        "visible": true
+      }
+    ]
+  },
+  "visualization": [],
+  "jobs": [],
+  "hooks": [],
+  "forms": [
+    {
+      "id": "b1f2e384-1052-4e50-ac1a-fc45dc543d3f",
+      "path": "medium",
+      "title": "Medium",
+      "is_initial": true,
+      "auto_start": false,
+      "allow_restart": true,
+      "end_message": null,
+      "start_message": null,
+      "error_message": null,
+      "welcome_title": null,
+      "timeout_message": null,
+      "start_button_text": null,
+      "restart_button_text": null,
+      "file": "medium.py",
+      "workflow_position": [
+        0.0,
+        0.0
+      ],
+      "transitions": [],
+      "notification_trigger": {
+        "variable_name": "assignee_emails",
+        "enabled": false
+      }
+    }
+  ],
+  "scripts": [],
+  "iterators": [],
+  "conditions": [],
+  "version": "4.0"
+}
